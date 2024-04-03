@@ -30,7 +30,7 @@ export default function Contact({listing}) {
                 placeholder='Enter your message here'
                 className='w-full border p-3 rounded-lg'></textarea>
                 <Link 
-                to = {`mailto : ${landlord.email}?subject=Regarding ${listing.name}&body= ${message}`}
+                to = {`mailto:${landlord.email}?subject=Regarding ${listing.name}&body=${message}`}
                 className='bg-slate-700 text-white text-center p-3 uppercase rounded-lg hover:opactiy-95'
                 >
                     Send Message

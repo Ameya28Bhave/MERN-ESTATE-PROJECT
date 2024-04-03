@@ -18,7 +18,7 @@ export default function ListingItem({listing}) {
                     <p className='text-sm text-gray-600 line-clamp-2'>{listing.description}</p>
                     <p className='text-slate-500 mt-2 font-semibold'>
                         $
-                        {listing.offer ? listing.discountedPrice : listing.regularPrice}
+                        {listing.offer ? listing.discountPrice : listing.regularPrice}
                         {listing.type === 'rent' && '/ month'}
                     </p>
                     <div className='text-slate-700 flex gap-4'>
