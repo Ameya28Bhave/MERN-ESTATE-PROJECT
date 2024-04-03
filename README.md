@@ -7,7 +7,7 @@ It contains the following features:
 4. Developed user profile management with profile image uploads and secure account deletion using JWT cookie validation.
 5. Created an intuitive interface with image sliders and seamless listing management for property owners.
 
-Deployed your MERN real estate app on the 'render' platform, making it ready for portfolio showcase or public use.
+Deployed MERN real estate app on the 'render' platform, making it ready for portfolio showcase or public use.
 
 Contains dynamic routing, state management with Redux Toolkit, React Router Dom and Tailwind CSS for frontend development, 
 and integrating third-party APIs like Google OAuth.
